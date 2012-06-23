@@ -1,4 +1,7 @@
-#   twiteur.js
-### A super mega-awesome, vaguely Gallic twitter api plugin for jQuery.
+twiteur.js
+----------
+
+A vaguely Gallic twitter api plugin for jQuery.
+===============================================
 
 Or something.

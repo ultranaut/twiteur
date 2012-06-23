@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Twiteur</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>#javascript</h1>
+  <div>
+    <div class="tweets"></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script src="jquery.twiteur.js"></script>
+  <script>
+    jQuery.noConflict();
+    jQuery(function () {
+      jQuery(".tweets").twiteur({
+        hashtag: 'javascript',
+        //user: ['ultranaut'],
+        count: 20
+      });
+    });
+  </script>
+</body>
+</html>
